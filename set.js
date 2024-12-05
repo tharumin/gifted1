@@ -17,13 +17,13 @@ SESSION_ID: process.env.SESSION_ID || "Gifted~624QlYjJ#DR_2WzlpGI7_9W62McZLz_mIu
 SUDO_NUMBERS: process.env.SUDO_NUMBERS || "94779062397", //Add multiple Numbers with Country Codes without (+) Separated by Comma...
 AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
 AUTOLIKE_STATUS: process.env.AUTOLIKE_STATUS || "true",
-AUTOLIKE_EMOJI: process.env.AUTOLIKE_EMOJI || "🍑", //Input Yours custom...
+AUTOLIKE_EMOJI: process.env.AUTOLIKE_EMOJI || "🍓", //Input Yours custom...
 AUTO_REPLY_STATUS: process.env.AUTO_REPLY_STATUS || "true",
 STATUS_REPLY_MSG: process.env.STATUS_REPLY_MSG || "*`ʜɪ ɪᴍ ʟᴀʀᴀ-ᴍᴅ ⚘`* \n\n *ɪ ʟɪᴄᴋᴇᴅ ʏᴏᴜʀ ꜱᴛᴀᴛᴜꜱ 🌸* \n\n> *© ᴄʀᴇᴀᴛᴇᴅ ʙʏ ꜱᴀᴅᴇᴇꜱʜᴀ ᴄᴏᴅᴇʀ · · ·*", // // Input Yours custom...
-MODE: process.env.MODE || "private",
+MODE: process.env.MODE || "public",
 OWNER_NUMBER: process.env.OWNER_NUMBER || "94779062397", // Only 1 owner Number Here, others Add to sudo numbers...
 OWNER_NAME: process.env.OWNER_NAME || "𝐆𝐈𝐅𝐓𝐄𝐃 𝐓𝐄𝐂𝐇", // Input Yours custom...(Maintain font for Flow)
-PREFIX: process.env.PREFIX || ".",
+PREFIX: process.env.PREFIX || "#",
 ANTIDELETE: process.env.ANTIDELETE || "true",
 ANTICALL: process.env.ANTICALL || "false",
 ANTICALL_MSG: process.env.ANTICALL_MSG || "*_📞 Auto Call Reject Mode Activated by Gifted-Md. 📵 No Calls Allowed Dude!_*",
@@ -35,8 +35,8 @@ WELCOME: process.env.WELCOME || "false",
 GOODBYE: process.env.GOODBYE || "false",    
 AUTO_READ_MESSAGES: process.env.AUTO_READ_MESSAGES || "false",
 AUTO_BLOCK: process.env.AUTO_BLOCK || "212,79", // Add Multiple Country Codes Separated by Comma...
-PRESENCE: process.env.PRESENCE || "online", // Choose one: typing, recording, online, null
-TIME_ZONE: process.env.TIME_ZONE || "Africa/Nairobi", // Enter yours else leave blank if not sure
+PRESENCE: process.env.PRESENCE || "recording", // Choose one: typing, recording, online, null
+TIME_ZONE: process.env.TIME_ZONE || "Asia/colombo", // Enter yours else leave blank if not sure
 };
 
 global.myName = "gifted-md"; // DO NOT Change this.... Change and Regret Later...
